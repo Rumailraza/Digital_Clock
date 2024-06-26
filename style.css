@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: rgba(0,0, 0, 0.5);
+
+}
+
+body,
+ .time,
+ .leftSide,
+ .rightSide,
+ .day,
+ .date
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightSide{
+    flex-direction: column;
+}
+.digitalCLock{
+    background-color: gray;
+    color: white;
+    padding: 20px 40px;
+    width: 425px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 10px rgba(0,0, 0, 0.5);
+}
+#hours{
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+#mintes{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-right: 15px;
+}
+#dots{
+    font-size: 5rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 19px;
+    
+    
+}
+
+#second{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#ampm{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+    
+
+}
+.rightbottom{
+    margin-left: 54px;
+    transform: translateY(-26px);
+}
+#dd{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#ddyymm{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
